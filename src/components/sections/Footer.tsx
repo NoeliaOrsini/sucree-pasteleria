@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-5 text-center">
         <Logo />
         <div className="space-y-2 text-xs tracking-wide text-muted-foreground">
-          <p>Realizado por Noelia Orsini</p>
+          <p>Sitio web diseñado y desarrollado por Noelia Orsini</p>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <a
               href="mailto:noelia.tech@gmail.com"
