@@ -93,9 +93,9 @@ export function Header() {
             target="_blank"
             rel="noreferrer"
             onClick={() => setOpen(false)}
-            className="mt-4 bg-burgundy px-8 py-3 text-[0.65rem] uppercase tracking-[0.28em] text-primary-foreground"
+            className="mt-4 border border-burgundy px-8 py-3 text-[0.65rem] uppercase tracking-[0.28em] text-burgundy transition-colors hover:bg-burgundy hover:text-primary-foreground"
           >
-            Hacé tu pedido
+            Pedidos
           </a>
         </nav>
       </div>
