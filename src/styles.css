@@ -42,8 +42,8 @@
 
 :root {
   --radius: 0.25rem;
-  --ivory: oklch(0.985 0.008 85);
-  --cream: oklch(0.965 0.014 82);
+  --ivory: #FDFBF7;
+  --cream: #FAF6F0;
   --burgundy: oklch(0.36 0.155 20);
   --burgundy-deep: oklch(0.28 0.13 20);
   --gold: oklch(0.72 0.075 78);
