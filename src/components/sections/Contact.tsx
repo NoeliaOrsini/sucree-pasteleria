@@ -1,6 +1,5 @@
-import { MapPin, Phone, QrCode, User } from "lucide-react";
+import { MapPin, Phone, User } from "lucide-react";
 import { ADDRESS, WHATSAPP_DISPLAY } from "@/lib/site";
-import { OrderButton } from "../OrderButton";
 
 export function Contact() {
   return (
@@ -28,18 +27,21 @@ export function Contact() {
             </ul>
 
             <div className="flex items-center gap-5 border border-dashed border-burgundy/35 bg-ivory p-5">
-              <div className="flex h-24 w-24 shrink-0 items-center justify-center border border-burgundy/20 bg-cream text-burgundy/50">
-                <QrCode className="h-10 w-10" strokeWidth={1} />
+              <div className="flex h-24 w-24 shrink-0 items-center justify-center border border-burgundy/20 bg-cream">
+                <img
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D5492227517071"
+                  alt="Código QR de WhatsApp de Sucrée Pastelería"
+                  loading="lazy"
+                  className="h-full w-full object-contain"
+                />
               </div>
               <div className="min-w-0">
                 <p className="font-display text-xl text-burgundy">Código QR de WhatsApp</p>
                 <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
-                  Espacio reservado para el QR: escaneá y escribinos directo desde el celular.
+                  Escaneá y escribinos directo desde el celular.
                 </p>
               </div>
             </div>
-
-            <OrderButton />
           </div>
 
           <div className="frame-photo min-h-72 md:min-h-full">

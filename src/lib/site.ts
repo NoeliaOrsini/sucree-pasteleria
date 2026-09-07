@@ -1,4 +1,4 @@
-export const WHATSAPP_URL = "https://wa.me/5492227517071";
+export const WHATSAPP_URL = "https://api.whatsapp.com/send?phone=5492227517071";
 export const WHATSAPP_DISPLAY = "+54 9 2227 51-7071";
 export const ADDRESS = "Turdo 627, Lobos, Provincia de Buenos Aires";
 
@@ -123,4 +123,4 @@ export const GALLERY = [
   u("1533134242453-ca0ad4ce7abb"),
 ];
 
-export const ABOUT_IMAGE = u("1556910103-1c02745aae4d");
+export const ABOUT_IMAGE = "/valentina.jpg";

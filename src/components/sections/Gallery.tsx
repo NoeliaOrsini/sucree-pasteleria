@@ -17,7 +17,7 @@ export function Gallery() {
         <header className="text-center">
           <p className="eyebrow">Galería</p>
           <h2 className="mt-4 font-display text-4xl text-foreground sm:text-5xl md:text-6xl">
-            Piezas del obrador
+            Nuestras Creaciones
           </h2>
         </header>
 

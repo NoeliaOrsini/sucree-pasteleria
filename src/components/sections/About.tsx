@@ -1,5 +1,4 @@
 import { ABOUT_IMAGE } from "@/lib/site";
-import { OrderButton } from "../OrderButton";
 
 export function About() {
   return (
@@ -30,9 +29,6 @@ export function About() {
               terminación final. Sin apuros, sin atajos, con ingredientes que se eligen uno por
               uno.
             </p>
-          </div>
-          <div className="mt-9">
-            <OrderButton variant="outline" />
           </div>
         </div>
       </div>
