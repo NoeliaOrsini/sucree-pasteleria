@@ -98,7 +98,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "sandwiches",
     name: "Sandwiches / Focaccia",
-    note: "Línea salada próximamente.",
+    note: "Nuestra propuesta salada, elaborada artesanalmente.",
     image: u("1509722747041-616f39b57569"),
     items: [],
   },
