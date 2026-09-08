@@ -36,7 +36,7 @@ export function Logo({ animated = false, className, size = "sm" }: LogoProps) {
           className={cn(
             "absolute right-0 translate-x-[15%] text-burgundy",
             size === "lg"
-              ? "-top-[0.62em] h-[0.58em] w-[0.58em] text-[13vw] sm:text-7xl md:text-8xl"
+              ? "-top-[0.66em] h-[0.62em] w-[0.62em] text-[18vw] sm:text-8xl md:text-9xl"
               : "-top-[0.6em] h-[0.62em] w-[0.62em] text-2xl sm:text-3xl",
             animated && "animate-hat",
           )}
