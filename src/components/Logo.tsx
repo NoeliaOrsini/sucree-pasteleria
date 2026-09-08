@@ -12,7 +12,7 @@ type LogoProps = {
 
 export function Logo({ animated = false, className, size = "sm" }: LogoProps) {
   const wordSize = size === "lg" ? "text-[13vw] sm:text-7xl md:text-8xl" : "text-2xl sm:text-3xl";
-  const subSize = size === "lg" ? "text-[0.6rem] sm:text-xs" : "text-[0.5rem] sm:text-[0.6rem]";
+  const subSize = size === "lg" ? "text-[0.7rem] sm:text-sm" : "text-[0.55rem] sm:text-[0.65rem]";
 
   return (
     <div className={cn("flex flex-col items-center leading-none", className)}>
