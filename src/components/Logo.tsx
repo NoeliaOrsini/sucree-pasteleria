@@ -45,13 +45,15 @@ export function Logo({ animated = false, className, size = "sm" }: LogoProps) {
       </div>
       <span
         className={cn(
-          "mt-2 font-sans uppercase tracking-[0.42em] text-muted-foreground",
+          "mt-2 flex w-full justify-between font-sans uppercase text-muted-foreground",
           subSize,
           animated && "animate-rise",
         )}
         style={animated ? { animationDelay: "2s" } : undefined}
       >
-        Pastelería
+        {"Pastelería".split("").map((letter, i) => (
+          <span key={i}>{letter}</span>
+        ))}
       </span>
     </div>
   );
