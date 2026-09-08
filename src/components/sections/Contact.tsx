@@ -1,5 +1,6 @@
 import { MapPin, Phone, User } from "lucide-react";
-import { ADDRESS, WHATSAPP_DISPLAY } from "@/lib/site";
+import { QRCodeSVG } from "qrcode.react";
+import { ADDRESS, WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/lib/site";
 
 export function Contact() {
   return (
@@ -28,11 +29,12 @@ export function Contact() {
 
             <div className="flex items-center gap-5 border border-dashed border-burgundy/35 bg-ivory p-5">
               <div className="flex h-24 w-24 shrink-0 items-center justify-center border border-burgundy/20 bg-cream">
-                <img
-                  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D5492227517071"
-                  alt="Código QR de WhatsApp de Sucrée Pastelería"
-                  loading="lazy"
-                  className="h-full w-full object-contain"
+                <QRCodeSVG
+                  value={WHATSAPP_URL}
+                  size={96}
+                  title="Código QR de WhatsApp de Sucrée Pastelería"
+                  role="img"
+                  aria-label="Código QR de WhatsApp de Sucrée Pastelería"
                 />
               </div>
               <div className="min-w-0">
