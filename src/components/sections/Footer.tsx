@@ -19,7 +19,7 @@ export function Footer() {
             <a
               href="https://www.linkedin.com/in/noelia-orsini"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 transition-colors hover:text-burgundy"
             >
               <Linkedin className="h-3.5 w-3.5" strokeWidth={1.5} />
