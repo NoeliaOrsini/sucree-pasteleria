@@ -10,11 +10,11 @@ export function Footer() {
           <p>Sitio web diseñado y desarrollado por Noelia Orsini</p>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <a
-              href="mailto:noelia.tech@gmail.com"
+              href="mailto:noeliaors.tech@gmail.com"
               className="inline-flex items-center gap-2 transition-colors hover:text-burgundy"
             >
               <Mail className="h-3.5 w-3.5" strokeWidth={1.5} />
-              noelia.tech@gmail.com
+              noeliaors.tech@gmail.com
             </a>
             <a
               href="https://www.linkedin.com/in/noelia-orsini"
