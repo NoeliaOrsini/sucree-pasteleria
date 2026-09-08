@@ -40,7 +40,7 @@ export function Header() {
           <a
             href={WHATSAPP_URL}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="border border-burgundy px-4 py-2 text-[0.6rem] uppercase tracking-[0.24em] text-burgundy transition-colors hover:bg-burgundy hover:text-primary-foreground"
           >
             Pedidos
@@ -91,7 +91,7 @@ export function Header() {
           <a
             href={WHATSAPP_URL}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="mt-4 border border-burgundy px-8 py-3 text-[0.65rem] uppercase tracking-[0.28em] text-burgundy transition-colors hover:bg-burgundy hover:text-primary-foreground"
           >
