@@ -41,7 +41,7 @@ export function Header() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-burgundy px-4 py-2 text-[0.6rem] uppercase tracking-[0.24em] text-burgundy transition-all duration-300 ease-in-out hover:bg-burgundy hover:text-cream hover:shadow-[inset_0_0_12px_rgba(255,255,255,0.15)]"
+            className="boutique-cta border border-burgundy px-4 py-2 text-[0.6rem] uppercase tracking-[0.24em]"
           >
             Pedidos
           </a>
@@ -93,7 +93,7 @@ export function Header() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
-            className="mt-4 border border-burgundy px-8 py-3 text-[0.65rem] uppercase tracking-[0.28em] text-burgundy transition-all duration-300 ease-in-out hover:bg-burgundy hover:text-cream hover:shadow-[inset_0_0_12px_rgba(255,255,255,0.15)]"
+            className="boutique-cta mt-4 border border-burgundy px-8 py-3 text-[0.65rem] uppercase tracking-[0.28em]"
           >
             Pedidos
           </a>
