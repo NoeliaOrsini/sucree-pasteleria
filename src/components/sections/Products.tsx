@@ -32,7 +32,7 @@ function CategoryBlock({ category, flipped }: { category: Category; flipped: boo
 
   return (
     <article className="grid items-center gap-10 md:grid-cols-2 md:gap-16">
-      <div className={cn("frame-photo relative aspect-4/3", flipped && "md:order-2")}>
+      <div className={cn("frame-photo relative aspect-4/3 overflow-hidden", flipped && "md:order-2")}>
         <img
           src={category.image}
           alt={`${category.name} de Sucrée Pastelería`}
@@ -42,6 +42,7 @@ function CategoryBlock({ category, flipped }: { category: Category; flipped: boo
             active ? "scale-105" : "scale-100",
           )}
         />
+        {/* TEXTO Y FONDO BORGOÑA SOBRE LA IMAGEN COMENTADO PARA LA FASE 2:
         <div
           className={cn(
             "pointer-events-none absolute inset-0 flex items-end bg-burgundy-deep/45 p-6 transition-opacity duration-500",
@@ -50,6 +51,7 @@ function CategoryBlock({ category, flipped }: { category: Category; flipped: boo
         >
           <span className="font-display text-2xl text-ivory sm:text-3xl">{active}</span>
         </div>
+        */}
       </div>
 
       <div className="min-w-0">
