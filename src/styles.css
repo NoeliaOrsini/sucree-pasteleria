@@ -34,7 +34,6 @@
   --color-cream: var(--cream);
   --color-burgundy: var(--burgundy);
   --color-burgundy-deep: var(--burgundy-deep);
-  --color-burgundy-warm: var(--burgundy-warm);
   --color-gold: var(--gold);
   --font-display: "Cormorant Garamond", "Playfair Display", serif;
   --font-serif: "Playfair Display", serif;
@@ -47,7 +46,6 @@
   --cream: #FAF6F0;
   --burgundy: oklch(0.36 0.155 20);
   --burgundy-deep: oklch(0.28 0.13 20);
-  --burgundy-warm: #8B1E3F;
   --gold: oklch(0.72 0.075 78);
 
   --background: var(--ivory);
