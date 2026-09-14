@@ -12,7 +12,7 @@ type LogoProps = {
 
 export function Logo({ animated = false, className, size = "sm" }: LogoProps) {
   const wordSize = size === "lg" ? "text-[13vw] sm:text-7xl md:text-8xl" : "text-2xl sm:text-3xl";
-  const subSize = size === "lg" ? "text-[0.7rem] sm:text-sm" : "text-[0.55rem] sm:text-[0.65rem]";
+  const subSize = size === "lg" ? "text-base" : "text-sm";
 
   return (
     <div className={cn("flex flex-col items-center leading-none", className)}>
@@ -45,7 +45,7 @@ export function Logo({ animated = false, className, size = "sm" }: LogoProps) {
       </div>
       <span
         className={cn(
-          "mt-2 block w-full text-center font-sans uppercase tracking-[0.15em] text-muted-foreground",
+          "mt-2 block w-full text-center font-sans font-medium uppercase tracking-[0.15em] text-muted-foreground",
           subSize,
           animated && "animate-rise",
         )}

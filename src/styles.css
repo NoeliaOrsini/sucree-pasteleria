@@ -46,6 +46,7 @@
   --cream: #FAF6F0;
   --burgundy: oklch(0.36 0.155 20);
   --burgundy-deep: oklch(0.28 0.13 20);
+  --burgundy-hover: #8B1E3F;
   --gold: oklch(0.72 0.075 78);
 
   --background: var(--ivory);
@@ -136,7 +137,7 @@
   transition-timing-function: ease-in-out;
 
   &:hover {
-    background-color: #8B1E3F !important;
+    background-color: var(--burgundy-hover) !important;
     box-shadow: 0 0 20px 4px rgba(230, 197, 148, 0.6), inset 0 0 10px rgba(255, 255, 255, 0.3) !important;
     transform: scale(1.02) !important;
   }
