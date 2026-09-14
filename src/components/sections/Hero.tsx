@@ -14,7 +14,7 @@ export function Hero() {
             <br />
             inspiración francesa
           </h1>
-          <p className="mt-7 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
+          <p className="mt-7 max-w-md text-base font-normal leading-relaxed text-muted-foreground">
             Cada pieza se prepara por encargo, con materia prima seleccionada y el tiempo que la
             buena pastelería necesita. Tortas, tartas, petit fours y postres para tus momentos.
           </p>
@@ -22,7 +22,7 @@ export function Hero() {
             <OrderButton />
             <a
               href="#productos"
-              className="text-[0.66rem] uppercase tracking-[0.28em] text-burgundy underline decoration-burgundy/30 underline-offset-8 transition-colors hover:decoration-burgundy"
+              className="text-base font-medium uppercase tracking-[0.16em] text-burgundy underline decoration-burgundy/30 underline-offset-8 transition-colors hover:decoration-burgundy"
             >
               Ver catálogo
             </a>

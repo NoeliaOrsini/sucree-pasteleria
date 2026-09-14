@@ -11,7 +11,7 @@ export function Products() {
           <h2 className="mt-4 font-display text-4xl text-foreground sm:text-5xl md:text-6xl">
             Nuestros productos
           </h2>
-          <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
+          <p className="mx-auto mt-5 max-w-xl text-base font-normal leading-relaxed text-muted-foreground">
             Todo se elabora por encargo. Consultanos disponibilidad, tamaños y tiempos de
             preparación por WhatsApp.
           </p>
@@ -57,7 +57,7 @@ function CategoryBlock({ category, flipped }: { category: Category; flipped: boo
         <h3 className="mt-3 font-display text-3xl uppercase tracking-[0.06em] text-burgundy sm:text-4xl">
           {category.name}
         </h3>
-        <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted-foreground">
+        <p className="mt-3 max-w-sm text-base font-normal leading-relaxed text-muted-foreground">
           {category.note}
         </p>
 
@@ -79,7 +79,7 @@ function CategoryBlock({ category, flipped }: { category: Category; flipped: boo
                     active === item ? "w-6" : "w-0",
                   )}
                 />
-                <span className="text-sm tracking-wide sm:text-base">{item}</span>
+                <span className="text-base font-normal tracking-wide">{item}</span>
               </button>
             </li>
           ))}

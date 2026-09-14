@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-5 text-center">
         <Logo />
-        <div className="space-y-2 text-xs tracking-wide text-muted-foreground">
+        <div className="space-y-2 text-base font-normal tracking-wide text-muted-foreground">
           <p>Sitio web diseñado y desarrollado por Noelia Orsini</p>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <a

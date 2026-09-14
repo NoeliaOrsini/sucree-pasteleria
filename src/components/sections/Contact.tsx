@@ -39,7 +39,7 @@ export function Contact() {
               </div>
               <div className="min-w-0">
                 <p className="font-display text-xl text-burgundy">Código QR de WhatsApp</p>
-                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                <p className="mt-1 text-base font-normal leading-relaxed text-muted-foreground">
                   Escaneá y escribinos directo desde el celular.
                 </p>
               </div>
@@ -74,7 +74,7 @@ function Row({
     <li className="flex gap-4">
       <span className="mt-1 shrink-0 text-burgundy">{icon}</span>
       <span className="min-w-0">
-        <span className="block text-[0.6rem] uppercase tracking-[0.28em] text-muted-foreground">
+        <span className="block text-base font-medium uppercase tracking-[0.14em] text-muted-foreground">
           {label}
         </span>
         <span className="mt-1 block font-display text-xl text-foreground sm:text-2xl">
