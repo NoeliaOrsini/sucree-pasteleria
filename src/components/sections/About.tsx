@@ -18,7 +18,7 @@ export function About() {
           <h2 className="mt-4 font-display text-4xl text-foreground sm:text-5xl">
             Valentina Chironi
           </h2>
-          <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
+          <div className="mt-6 space-y-4 text-base font-normal leading-relaxed text-muted-foreground">
             <p>
               Sucrée nace del oficio y la paciencia: masas trabajadas a mano, cremas hechas el
               mismo día y una obsesión sana por el detalle. Valentina lleva la técnica de la

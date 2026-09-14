@@ -27,13 +27,13 @@ export function Header() {
           <Logo />
         </a>
 
-        <nav className="hidden items-center gap-7 md:order-1 md:flex">
+        <nav className="hidden items-center gap-5 md:order-1 md:flex">
           {NAV.slice(0, 3).map((n) => (
             <NavLink key={n.href} {...n} />
           ))}
         </nav>
 
-        <div className="hidden items-center justify-end gap-7 md:order-3 md:flex">
+        <div className="hidden items-center justify-end gap-5 md:order-3 md:flex">
           {NAV.slice(3).map((n) => (
             <NavLink key={n.href} {...n} />
           ))}
@@ -41,7 +41,7 @@ export function Header() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="boutique-cta border border-burgundy px-4 py-2 text-[0.6rem] uppercase tracking-[0.24em]"
+            className="boutique-cta border border-burgundy px-4 py-2 text-sm font-medium uppercase tracking-[0.18em]"
           >
             Pedidos
           </a>
@@ -93,7 +93,7 @@ export function Header() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
-            className="boutique-cta mt-4 border border-burgundy px-8 py-3 text-[0.65rem] uppercase tracking-[0.28em]"
+            className="boutique-cta mt-4 border border-burgundy px-8 py-3 text-base font-medium uppercase tracking-[0.2em]"
           >
             Pedidos
           </a>
@@ -107,7 +107,7 @@ function NavLink({ label, href }: { label: string; href: string }) {
   return (
     <a
       href={href}
-      className="relative text-[0.65rem] uppercase tracking-[0.24em] text-muted-foreground transition-colors after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:text-burgundy hover:after:w-full"
+      className="relative text-sm font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:text-burgundy hover:after:w-full"
     >
       {label}
     </a>
