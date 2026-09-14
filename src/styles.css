@@ -42,7 +42,7 @@
 
 :root {
   --radius: 0.25rem;
-  --ivory: #FDFBF7;
+  --ivory: #FAF7F2;
   --cream: #FAF6F0;
   --burgundy: oklch(0.36 0.155 20);
   --burgundy-deep: oklch(0.28 0.13 20);
@@ -60,7 +60,7 @@
   --secondary: var(--cream);
   --secondary-foreground: var(--burgundy);
   --muted: var(--cream);
-  --muted-foreground: #55463F;
+  --muted-foreground: #362722;
   --accent: var(--cream);
   --accent-foreground: var(--burgundy);
   --destructive: oklch(0.577 0.245 27.325);
