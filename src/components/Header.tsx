@@ -107,7 +107,7 @@ function NavLink({ label, href }: { label: string; href: string }) {
   return (
     <a
       href={href}
-      className="relative text-sm font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:text-burgundy hover:after:w-full"
+      className="relative whitespace-nowrap text-sm font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-burgundy after:transition-all after:duration-300 hover:text-burgundy hover:after:w-full"
     >
       {label}
     </a>
