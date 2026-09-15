@@ -3,6 +3,7 @@ import { ABOUT_IMAGE } from "@/lib/site";
 export function About() {
   return (
     <section id="sobre" className="py-10 md:py-12">
+      <div className="mx-auto mb-8 h-[1px] w-96 max-w-full bg-gradient-to-r from-transparent via-[#800020]/60 to-transparent md:mb-10" />
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-[0.9fr_1.1fr] md:gap-16">
         <div className="frame-photo aspect-3/4 rounded-b-[12rem]">
           <img
