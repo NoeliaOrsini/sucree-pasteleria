@@ -41,7 +41,7 @@ export function Header() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="boutique-cta border border-burgundy px-4 py-2 text-sm font-medium uppercase tracking-[0.18em]"
+            className="boutique-cta rounded-full px-5 py-1.5 text-xs font-normal uppercase tracking-widest"
           >
             Pedidos
           </a>
