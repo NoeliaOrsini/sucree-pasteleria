@@ -4,8 +4,9 @@ import { ADDRESS, WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/lib/site";
 
 export function Contact() {
   return (
-    <section id="contacto" className="bg-cream/60 py-20 md:py-28">
+    <section id="contacto" className="bg-cream/60 py-10 md:py-12">
       <div className="mx-auto max-w-6xl px-5">
+        <div className="mx-auto mb-8 h-[1px] w-24 bg-[#800020]/20 md:mb-10" />
         <header className="text-center">
           <p className="eyebrow">Contacto</p>
           <h2 className="mt-4 font-display text-4xl text-foreground sm:text-5xl md:text-6xl">

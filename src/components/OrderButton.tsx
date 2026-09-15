@@ -14,7 +14,7 @@ export function OrderButton({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "boutique-cta inline-flex min-h-11 items-center justify-center px-9 py-4 text-sm font-medium uppercase tracking-[0.2em]",
+        "boutique-cta inline-flex min-h-11 items-center justify-center rounded-full px-9 py-4 text-sm font-medium uppercase tracking-[0.2em]",
         variant === "solid"
           ? "border border-burgundy"
           : "border border-burgundy",
