@@ -40,7 +40,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="w-full border-t border-[#800020]/15" />
     </section>
   );
 }
