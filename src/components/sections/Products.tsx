@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 export function Products() {
   return (
-    <section id="productos" className="py-20 md:py-28">
+    <section id="productos" className="py-10 md:py-12">
       <div className="mx-auto max-w-6xl px-5">
         <header className="text-center">
           <p className="eyebrow">Catálogo</p>
@@ -22,6 +22,8 @@ export function Products() {
             <CategoryBlock key={category.id} category={category} flipped={i % 2 === 1} />
           ))}
         </div>
+
+        <div className="mx-auto mt-10 h-[1px] w-24 bg-[#800020]/20 md:mt-12" />
       </div>
     </section>
   );

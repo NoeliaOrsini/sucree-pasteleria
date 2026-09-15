@@ -4,7 +4,7 @@ import { HERO_IMAGE } from "@/lib/site";
 export function Hero() {
   return (
     <section id="inicio" className="relative pt-32 md:pt-40">
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-20 md:grid-cols-2 md:gap-16 md:pb-28">
+      <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-10 md:grid-cols-2 md:gap-16 md:pb-12">
         <div className="animate-rise" style={{ animationDelay: "3.4s" }}>
           <p className="eyebrow">Lobos · Buenos Aires</p>
           <h1 className="mt-6 font-display text-5xl leading-[1.05] text-foreground sm:text-6xl md:text-7xl">
@@ -18,11 +18,11 @@ export function Hero() {
             Cada pieza se prepara por encargo, con materia prima seleccionada y el tiempo que la
             buena pastelería necesita. Tortas, tartas, petit fours y postres para tus momentos.
           </p>
-          <div className="mt-9 flex flex-wrap items-center gap-4">
+          <div className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
             <OrderButton />
             <a
               href="#productos"
-              className="text-base font-medium uppercase tracking-[0.16em] text-burgundy underline decoration-burgundy/30 underline-offset-8 transition-colors hover:decoration-burgundy"
+              className="inline-flex items-center border-b border-[#362722]/30 pb-1 text-base font-medium uppercase tracking-[0.16em] text-burgundy transition-colors hover:border-burgundy"
             >
               Ver catálogo
             </a>

@@ -27,7 +27,7 @@ export function Header() {
           <Logo />
         </a>
 
-        <nav className="hidden items-center gap-5 md:order-1 md:flex">
+        <nav className="hidden items-center gap-8 md:order-1 md:flex">
           {NAV.slice(0, 3).map((n) => (
             <NavLink key={n.href} {...n} />
           ))}
