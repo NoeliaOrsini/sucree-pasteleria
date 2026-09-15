@@ -7,6 +7,7 @@ export function Products() {
     <section id="productos" className="py-10 md:py-12">
       <div className="mx-auto max-w-6xl px-5">
         <header className="text-center">
+          <div className="mx-auto mb-8 h-[1px] w-48 bg-[#800020]/20 md:mb-10" />
           <p className="eyebrow">Catálogo</p>
           <h2 className="mt-4 font-display text-4xl text-foreground sm:text-5xl md:text-6xl">
             Nuestros productos
@@ -22,8 +23,6 @@ export function Products() {
             <CategoryBlock key={category.id} category={category} flipped={i % 2 === 1} />
           ))}
         </div>
-
-        <div className="mx-auto mt-10 h-[1px] w-24 bg-[#800020]/20 md:mt-12" />
       </div>
     </section>
   );
