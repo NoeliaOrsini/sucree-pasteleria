@@ -22,7 +22,7 @@ export function Hero() {
             <OrderButton />
             <a
               href="#productos"
-              className="inline-flex items-center border-b border-[#362722]/30 pb-1 text-base font-medium uppercase tracking-[0.16em] text-burgundy transition-colors hover:border-burgundy"
+              className="inline-flex items-center justify-center rounded-full border border-[#362722]/30 px-6 py-2.5 text-xs font-medium uppercase tracking-[0.16em] text-[#362722] transition-colors hover:border-burgundy hover:text-burgundy"
             >
               Ver catálogo
             </a>
@@ -40,7 +40,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="hairline mx-auto max-w-6xl" />
+      <div className="w-full border-t border-[#800020]/15" />
     </section>
   );
 }
